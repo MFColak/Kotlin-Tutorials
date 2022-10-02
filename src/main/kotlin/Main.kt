@@ -1,6 +1,8 @@
 
 fun main() {
-
+    val rectangle1 = Rectangle(2.0, 3.0)
+    println("Rectangle perimeter is ${rectangle1.perimeter()}")
+    
     val rectangle = Rectangle(3.0,5.0)
     println("Rectangle area is ${rectangle.area()}")
 
